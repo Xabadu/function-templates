@@ -4,12 +4,15 @@
   "private": true,
   "description": "A set of useful Twilio Functions.",
   "scripts": {
+    "lint": "eslint ./",
     "test": "jest"
   },
   "author": "Phil Nash <philnash@twilio.com>",
   "license": "MIT",
   "devDependencies": {
     "eslint": "^5.4.0",
+    "eslint-config-twilio": "^1.2.2",
+    "eslint-plugin-react": "^7.14.3",
     "jest-cli": "^24.8.0"
   },
   "jest": {
